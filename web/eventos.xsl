@@ -22,9 +22,9 @@
             <body>
                 <header>
                     <img src="../img/logotipo.png" alt="Reservas" />
-                    <a href="gastrobar.html">Gastrobar</a>
-                    <a href="atracciones.html">Atracciones</a>
-                    <a href="eventos.html">Eventos</a>
+                    <a href="gastrobar.xml">Gastrobar</a>
+                    <a href="atracciones.xml">Atracciones</a>
+                    <a href="eventos.xml">Eventos</a>
                 </header>
                 <main>
                     <h1>Eventos del 2024</h1>
