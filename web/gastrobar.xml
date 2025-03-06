@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Asociar una transformación XSLT -->
+<?xml-stylesheet type="text/xsl" href="gastrobar.xsl"?>
+
+<gestionParque>
+    <gastrobar>
+        <ubicacion>Zona Norte</ubicacion>
+        <platos>
+            <plato codigo="A001" categoria="Comida Rápida">
+                <nom_plato>Pizza Margarita</nom_plato>
+                <foto>pizza_margarita.jpg</foto>
+                <precio>8.50</precio>
+            </plato>
+            <plato codigo="A002" categoria="Entrante">
+                <nom_plato>Entrante 1</nom_plato>
+                <foto>entrante1.jpg</foto>
+                <precio>6.00</precio>
+            </plato>
+            <plato codigo="003" categoria="Entrante">
+                <nom_plato>Entrante 2</nom_plato>
+                <foto>entrante2.jpg</foto>
+                <precio>7.50</precio>
+            </plato>
+            <plato codigo="004" categoria="Entrante">
+                <nom_plato>Entrante 3</nom_plato>
+                <foto>entrante3.jpg</foto>
+                <precio>6.00</precio>
+            </plato>
+        </platos>
+    </gastrobar>
+    <atracciones>
+        <atraccion tipo="Adrenalina" duracion="2 minutos">
+            <nombre>Montaña Rusa</nombre>
+            <operador>Juan Pérez</operador>
+            <restricciones>
+                <edadMinima>12</edadMinima>
+                <pesoMinimo>15</pesoMinimo>
+                <pesoMaximo>120</pesoMaximo>
+            </restricciones>
+        </atraccion>
+        <atraccion tipo="Familiar" duracion="3 minutos">
+            <nombre>Coches de choque</nombre>
+            <operador>María López</operador>
+            <restricciones>
+                <edadMinima>5</edadMinima>
+                <pesoMinimo>15</pesoMinimo>
+                <pesoMaximo>100</pesoMaximo>
+            </restricciones>
+        </atraccion>
+    </atracciones>
+    <eventos>
+        <evento lugar="Pabellon Central">
+            <descripcion>Fiesta Vaquera</descripcion>
+            <espectadores>200</espectadores>
+            <fechaHora>2024-11-25T18:00:00</fechaHora>
+            <comentarios>
+                <comentario fecha="Martes">No puedo esperar para ir.</comentario>
+                <comentario fecha="Lunes">Espectacular evento.</comentario>
+            </comentarios>
+        </evento>
+        <evento lugar="Pabellon Central">
+            <descripcion>Concierto Navideño</descripcion>
+            <espectadores>200</espectadores>
+            <fechaHora>2024-12-25T18:00:00</fechaHora>
+            <comentarios>
+                <comentario fecha="Lunes">Espectacular evento.</comentario>
+                <comentario fecha="Martes">No puedo esperar para ir.</comentario>
+            </comentarios>
+        </evento>
+        <evento lugar="Pabellon Central">
+            <descripcion>Festival de Primavera</descripcion>
+            <espectadores>200</espectadores>
+            <fechaHora>2023-03-25T18:00:00</fechaHora>
+            <comentarios>
+                <comentario fecha="Martes">No puedo esperar para ir.</comentario>
+                <comentario fecha="Lunes">Espectacular evento.</comentario>
+            </comentarios>
+        </evento>
+    </eventos>
+</gestionParque>

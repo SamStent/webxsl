@@ -1,0 +1,165 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+/* Estilos del header */
+header {
+	display: flex;
+	height: 85px;
+	background-color: black;
+}
+header img {
+	height: 100%;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	align-self: center;
+	padding: 1rem;
+}
+header a:hover {
+	background-color: #7DC0A4;
+}
+
+section {
+	color: black;
+	text-align: left;
+}
+
+main {
+	background-image:linear-gradient(rgb(255 255 255 / 50%), rgba(245, 152, 10, 0.5)),url("../img/fondo.jpg");
+	background-size:cover;
+  	background-position: bottom;
+  	background-repeat:no-repeat;	
+	color: #F5FDED;
+	min-height: calc(100vh - 135px - 40px);
+	padding: 20px;
+}
+
+main h1 {
+	font-size: 2rem;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: left;
+	text-transform: uppercase;
+	color: #735C40;
+}
+
+/* Estilos del index */
+
+.principal {
+	margin-top: 15%;
+	text-shadow: 0.15rem 0.1em #333;
+	text-align: center;
+}
+
+
+/* Estilos de gastrobar */
+#gastrobar{
+	display: flex;
+	flex-direction: row;
+}
+
+.articulo {
+	margin: 5%;
+	width: 20%;
+	height: 400px;
+	background-color: #d7c9b0;
+	color: #735C40;
+	border-radius: 5%;
+	position: relative;
+}
+
+.articulo .imagen {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.articulo .novedad-icono {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50%;
+}
+
+.articulo h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.articulo h3 {
+	font-size: 1.75rem;
+	text-align: right;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+}
+
+/* Estilos de eventos */
+.eventos {
+	background-color: #d7c9b0;
+	color: #735C40;
+	text-shadow: none;
+	box-sizing: border-box;
+	width: 40%;
+	margin: 2% auto;
+	padding: 15px ;
+	border-radius: 15px;
+}
+
+.eventos h4 {
+	background-color: #735C40;
+	color: #13160f;
+	margin: 0;
+	padding: 1.25rem;
+	border-radius: 15px;
+	text-transform: uppercase;
+}
+
+
+
+
+/*Estilos para atracciones */
+table {
+	width: 60%;
+	margin: auto;
+	border-collapse: collapse;
+	color: #d7c9b0;
+	background-color: #735C40;
+}
+
+th {
+	font-size:1.5rem;
+	padding: 1.5rem;
+	border-bottom: solid 1px #d7c9b0;
+}
+
+td {
+	font-size:1.1rem;
+	padding: 1.1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+td a {
+	color: #d7c9b0;
+	text-decoration: none;
+}
+
+td a:hover {
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+/*Estilos para el footer*/
+footer {
+	height: 50px;
+}
+
+address {
+	padding: 1rem;
+	text-align: right;
+	background-color: black;
+	color: white;
+}
